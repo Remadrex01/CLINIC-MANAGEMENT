@@ -1,0 +1,15 @@
+# ClinicCare Pro — Python dependencies
+#
+# Core application uses ONLY the Python standard library:
+#   - tkinter   (GUI framework, bundled with Python)
+#   - sqlite3   (database, bundled with Python)
+#   - csv       (export, bundled)
+#   - hashlib   (password hashing fallback, bundled)
+#
+# Optional enhancements (install if needed):
+#   pillow      — image display in the UI (logo, icons)
+#   bcrypt      — stronger password hashing (recommended for production)
+
+# Optional but recommended:
+pillow>=9.0.0
+bcrypt>=4.0.0
